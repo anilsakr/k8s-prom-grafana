@@ -30,6 +30,8 @@ To access grafana you can use port forward functionality
 kubectl port-forward --namespace monitoring service/grafana 3000:3000
 ```
 And you should be able to access grafana on `http://localhost:3000/login`
+Now, we need the credentials to log into Grafana, use the default credentials,
+`username: admin`, `password: admin`
 
 ## More Dashboards
 
